@@ -2,24 +2,9 @@
 Get the latitude and longitude of any valid IP address. Built with React, Node, and Maxmind's GeoIP2 database. Runnable with Docker.
 
 # Getting Started
-## Use Docker (recommended)
-The best experience comes from using [docker compose](https://docs.docker.com/compose/).   
+## Docker
+To run the app, you'll need to use [docker compose](https://docs.docker.com/compose/).   
 Simply clone the repo to your machine, and run `docker-compose up`. You should then be able to view the app at localhost:3000
-
-## Run without Docker
-If you don't want to use Docker, you could run the following:
-### In one terminal:
-// install server dependencies and start  
-cd api  
-npm install  
-npm run dev  
-
-### In another terminal:
-// install react dependencies and start  
-cd my-app  
-npm install  
-npm start  
-
 
 # Testing
 Testing is currently done manually.
